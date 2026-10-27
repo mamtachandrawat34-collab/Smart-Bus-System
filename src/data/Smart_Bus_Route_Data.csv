@@ -1,0 +1,97 @@
+route_number,route_name,stop_name,timing_display,source_timing,verification_status
+1,Route 1,MOHAN NAGAR,08:35,8.35,provided_in_source
+1,Route 1,INDIRA NAGAR,08:37,8.37,provided_in_source
+1,Route 1,JAAT DHARMSHALA,08:41,8.41,provided_in_source
+1,Route 1,MANGALNATH SQ,08:43,8.43,provided_in_source
+1,Route 1,INDIRA NAGAR -II SQ,08:48,8.48,provided_in_source
+1,Route 1,BEEMA,08:52,8.52,provided_in_source
+1,Route 1,KOYLA FATAK,08:55,8.55,provided_in_source
+1,Route 1,CHAMUNDA MATA SQ,08:57,8.57,provided_in_source
+1,Route 1,DIRECT CAMPUS,09:03,9.3,provided_in_source
+2,Route 2,MAXI ROAD Gopal pura,08:04,8.4,provided_in_source
+2,Route 2,SETHI NAGAR - COW SQ,08:45,8.45,provided_in_source
+2,Route 2,GHAS MANDI,08:51,8.51,provided_in_source
+2,Route 2,TOWER,08:52,8.52,provided_in_source
+2,Route 2,ABHINANDAN,08:55,8.55,provided_in_source
+2,Route 2,RISHI NAGAR,09:02,9.02,provided_in_source
+2,Route 2,RTO,09:04,9.04,provided_in_source
+2,Route 2,"TRAFIC THANA,",09:05,9.05,provided_in_source
+2,Route 2,KSHIPRA HOTEL,09:06,9.06,provided_in_source
+2,Route 2,DIRECT CAMPUS,09:03,9.3,provided_in_source
+3,Route 3,NIKAS,08:04,8.4,provided_in_source
+3,Route 3,KANTHAL,08:42,8.42,provided_in_source
+3,Route 3,POWER HOUSE,08:45,8.45,provided_in_source
+3,Route 3,GADA PULIYA,08:55,8.55,provided_in_source
+3,Route 3,HARI FATHAK,STOP,STOP,needs_verification
+3,Route 3,DIRECT CAMPUS,09:03,9.3,provided_in_source
+4,Route 4,ABHILASHA,08:35,8.35,provided_in_source
+4,Route 4,ICREAM FACTORY,08:04,8.4,provided_in_source
+4,Route 4,NAGZIRI,08:44,8.44,provided_in_source
+4,Route 4,MAHANANDA,08:46,8.46,provided_in_source
+4,Route 4,COSMOS MALL,08:58,8.58,provided_in_source
+4,Route 4,C21 SUBKUCH ST KABIR NGR,09:00,9,provided_in_source
+4,Route 4,DIRECT CAMPUS,09:03,9.3,provided_in_source
+5,Route 5,ATLAS,08:45,8.45,provided_in_source
+5,Route 5,DAULATGANJ,08:48,8.48,provided_in_source
+5,Route 5,INDORE GATE,08:05,8.5,provided_in_source
+5,Route 5,DEWAS GATE,08:53,8.53,provided_in_source
+5,Route 5,CHANUNDA MATA,08:55,8.55,provided_in_source
+5,Route 5,BENGALI COLONY,08:57,8.57,provided_in_source
+5,Route 5,UTKARSH - SHASTRI NGR,09:00,9,provided_in_source
+5,Route 5,NEEL GANGA,09:02,9.02,provided_in_source
+5,Route 5,MANCHAMAN SQ,09:05,9.05,provided_in_source
+5,Route 5,HARI FATAK,09:08,9.08,provided_in_source
+5,Route 5,JANTAR MANTAR,09:08,9.08,provided_in_source
+5,Route 5,DIRECT CAMPUS,09:03,9.3,provided_in_source
+10,Route 10,BUS STOP,Timing,Timing,provided_in_source
+10,Route 10,AGRICULTURE COLLAGE,07:05,7.5,provided_in_source
+10,Route 10,PIPLIYAHANA GAON,07:52,7.52,provided_in_source
+10,Route 10,WORLDCUP SQ,07:55,7.55,provided_in_source
+10,Route 10,BENGALI SQ,08:00,8,provided_in_source
+10,Route 10,RADDISION SQ,08:08,8.08,provided_in_source
+10,Route 10,VIJAY NAGAR,08:01,8.1,provided_in_source
+10,Route 10,MEGHDOOT,08:13,8.13,provided_in_source
+10,Route 10,BAPAT SQ,08:15,8.15,provided_in_source
+10,Route 10,HEERA NAGAR,08:18,8.18,provided_in_source
+10,Route 10,MR 10,08:22,8.22,provided_in_source
+10,Route 10,AUROBINDO,08:03,8.3,provided_in_source
+10,Route 10,RAGHAV PIPLIYA,09:01,9.1,provided_in_source
+10,Route 10,DIRECT CAMPUS,09:03,9.3,provided_in_source
+6,Route 6,BUS STOP,Timing,Timing,provided_in_source
+6,Route 6,DMART,08:05,8.5,provided_in_source
+6,Route 6,LALGATE,08:55,8.55,provided_in_source
+6,Route 6,NANAKHEDA,09:00,9,provided_in_source
+6,Route 6,SHANTI PALACE,09:05,9.05,provided_in_source
+6,Route 6,HATKESHWAR,09:09,9.09,provided_in_source
+6,Route 6,DIRECT CAMPUS,09:03,9.3,provided_in_source
+7,Route 7,BUS STOP,Timing,Timing,provided_in_source
+7,Route 7,NANAKHEDA,09:00,9,provided_in_source
+7,Route 7,SHANTI PALACE,09:05,9.05,provided_in_source
+7,Route 7,HATKESHWAR,09:09,9.09,provided_in_source
+7,Route 7,DIRECT CAMPUS,09:03,9.3,provided_in_source
+8,Route 8,BUS STOP,Timing,Timing,provided_in_source
+8,Route 8,TOWER,08:45,8.45,provided_in_source
+8,Route 8,TEEN BATTI,08:47,8.47,provided_in_source
+8,Route 8,SINDHI COLONY,08:58,8.58,provided_in_source
+8,Route 8,APOLO TYRE ALAKHDHAM,08:05,8.5,provided_in_source
+8,Route 8,DO TALAV,08:52,8.52,provided_in_source
+8,Route 8,DESHMUKH HOSPITAL,08:55,8.55,provided_in_source
+8,Route 8,NANKHEDA,09:00,9,provided_in_source
+8,Route 8,DIRECT CAMPUS,09:03,9.3,provided_in_source
+9,Route 9,BUS STOP,Timing,Timing,provided_in_source
+9,Route 9,RAU,07:45,7.45,provided_in_source
+9,Route 9,RAJENDRA NAGAR,07:48,7.48,provided_in_source
+9,Route 9,CHOITHRAM MANDI SQ,07:05,7.5,provided_in_source
+9,Route 9,AMBIKAPURI,07:53,7.53,provided_in_source
+9,Route 9,ANNAPURNA,08:00,8,provided_in_source
+9,Route 9,DASHERA MAIDAN,08:02,8.02,provided_in_source
+9,Route 9,MHOW NAKA,08:05,8.05,provided_in_source
+9,Route 9,RAJMOHALLA,08:05,8.05,provided_in_source
+9,Route 9,BADA GANPATI,08:05,8.05,provided_in_source
+9,Route 9,GITANJALI HOSPITAL,08:08,8.08,provided_in_source
+9,Route 9,KALANI NAGAR,08:01,8.1,provided_in_source
+9,Route 9,BSF,08:12,8.12,provided_in_source
+9,Route 9,GANDHI NAGAR,08:15,8.15,provided_in_source
+9,Route 9,BANGARDA SQ,08:02,8.2,provided_in_source
+9,Route 9,AUROBINDO,08:03,8.3,provided_in_source
+9,Route 9,DIRECT CAMPUS,09:03,9.3,provided_in_source
