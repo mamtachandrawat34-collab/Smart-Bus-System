@@ -24,6 +24,7 @@ interface ReportRow {
   description: string;
   submitted_at: string;
   status: ReportStatus;
+  submitted_by: string | null;
 }
 
 interface NotificationRow {
@@ -47,6 +48,7 @@ function rowToReport(r: ReportRow): CrowdReport {
     description: r.description ?? '',
     submittedAt: r.submitted_at,
     status: r.status,
+    submittedBy: r.submitted_by ?? null,
   };
 }
 
@@ -87,6 +89,7 @@ export async function insertReport(
     submitted_at: report.submittedAt,
     status: report.status,
   };
+  // submitted_by is omitted — the DB column defaults to auth.uid().
   const { error } = await supabase.from('crowd_reports').insert(row);
   if (error) return { error: error.message };
   return {};

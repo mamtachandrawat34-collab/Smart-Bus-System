@@ -30,7 +30,8 @@ export interface CrowdReport {
   crowdLevel: CrowdLevel;
   description: string;
   submittedAt: string; // ISO timestamp
-  status: ReportStatus; // Prototype status — not a verified staff review
+  status: ReportStatus;
+  submittedBy?: string | null;
 }
 
 export type NotificationCategory =
@@ -48,9 +49,65 @@ export interface AppNotification {
   relatedReportId?: string;
 }
 
+// ---- Auth ----
+
+export type UserRole = 'student' | 'admin';
+
+export interface UserProfile {
+  id: string;
+  email: string;
+  role: UserRole;
+  displayName: string;
+}
+
+// ---- Issue reports (maintenance + cleanliness) ----
+
+export type IssueStatus = 'Submitted' | 'In Progress' | 'Resolved';
+
+export type IssueReportType = 'maintenance' | 'cleanliness';
+
+export type MaintenanceCategory =
+  | 'breakdown'
+  | 'damaged_seats'
+  | 'faulty_doors_windows'
+  | 'water_leakage'
+  | 'other';
+
+export type CleanlinessCategory =
+  | 'dirty_seats'
+  | 'unclean_floors'
+  | 'litter'
+  | 'bad_smell'
+  | 'other';
+
+export interface IssueReport {
+  id: string;
+  type: IssueReportType;
+  reporterId: string;
+  routeNumber: number;
+  routeName: string;
+  busIdentifier: string;
+  category: string;
+  description: string;
+  photoPath: string | null;
+  photoUrl?: string | null;
+  status: IssueStatus;
+  submittedAt: string;
+}
+
+// ---- Drivers ----
+
+export interface DriverContact {
+  id: string;
+  routeNumber: number;
+  driverName: string;
+  driverPhone: string;
+  updatedAt: string;
+}
+
 export type PageKey =
   | 'dashboard'
   | 'routes'
   | 'reports'
   | 'notifications'
-  | 'about';
+  | 'admin';
